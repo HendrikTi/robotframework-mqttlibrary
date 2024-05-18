@@ -31,5 +31,5 @@ setup(
     keywords          = 'robotframework testing testautomation mqtt',
     package_dir       = {'': 'src'},
     packages          = ['MQTTLibrary'],
-    install_requires  = ['robotframework', 'paho-mqtt'],
+    install_requires  = ['robotframework', 'paho-mqtt == 1.6.1'],
 )
